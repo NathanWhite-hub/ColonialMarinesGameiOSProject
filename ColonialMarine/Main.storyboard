@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="hZC-Y4-509">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="windows_command_prompt.ttf">
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+            <string>Windows-Command-Prompt</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xwO-Ch-f88">
+            <objects>
+                <viewController storyboardIdentifier="MainMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RIb-bP-F3n" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Oe-7i-FmE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackgroundfornate.png" id="lES-RD-WvK">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CNG-z7-Kms">
+                                <rect key="frame" x="42" y="343" width="183" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="40"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.33230788049999999" green="1" blue="0.42441139020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uLh-ae-geR" kind="push" id="uzc-2V-Se4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x7H-us-qKF">
+                                <rect key="frame" x="42" y="424" width="183" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="40"/>
+                                <state key="normal" title="Load Game">
+                                    <color key="titleColor" red="0.33230788049999999" green="1" blue="0.42441139020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColonialMarineTitle.png" id="cSk-2L-Wd1">
+                                <rect key="frame" x="187" y="-22" width="650" height="345"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dxc-ri-iUf"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFA-sL-8xG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="685" y="406"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="88N-as-UcY">
+            <objects>
+                <viewController storyboardIdentifier="GameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uLh-ae-geR" customClass="GameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WES-lM-M5e">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackgroundfornate.png" id="aFf-6a-ime">
+                                <rect key="frame" x="0.0" y="0.0" width="1029" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aQF-zj-JV3">
+                                <rect key="frame" x="16" y="113" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752807339555" green="1" blue="0.30333913779546562" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Op6-59-Qd9">
+                                <rect key="frame" x="16" y="147" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethnicity:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k8F-eL-N48">
+                                <rect key="frame" x="16" y="249" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Ec-cS-QGa">
+                                <rect key="frame" x="16" y="283" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Preview:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lAb-aA-p4t">
+                                <rect key="frame" x="16" y="361" width="357" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hair color:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kow-Yh-4xM">
+                                <rect key="frame" x="16" y="215" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ieV-dM-EKK">
+                                <rect key="frame" x="147" y="111" width="210" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="hbw-on-08L">
+                                <rect key="frame" x="147" y="145" width="210" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="18" minimumValue="18" maximumValue="30" id="1I3-bD-abj">
+                                <rect key="frame" x="147" y="179" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="ageStepper:" destination="uLh-ae-geR" eventType="valueChanged" id="kMt-K3-Ueg"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rs0-6J-fQj">
+                                <rect key="frame" x="416" y="706" width="192" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="20"/>
+                                <state key="normal" title="&lt;...Save and Continue...&gt;">
+                                    <color key="titleColor" red="0.27843137254901962" green="1" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="continueToGame:" destination="uLh-ae-geR" eventType="touchUpInside" id="H9h-ee-0J7"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="25Y-W8-d4x">
+                                <rect key="frame" x="147" y="249" width="340" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment>
+                                        <string key="title" base64-UTF8="YES">
+EENhdWNhc2lhbg
+</string>
+                                    </segment>
+                                    <segment title="Asian"/>
+                                    <segment title="African American"/>
+                                </segments>
+                                <connections>
+                                    <action selector="skinColorType:" destination="uLh-ae-geR" eventType="valueChanged" id="jb3-b1-Rls"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="fYy-25-XlW">
+                                <rect key="frame" x="147" y="283" width="340" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Earth Dweller"/>
+                                    <segment title="Colony Kid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="backgroundType:" destination="uLh-ae-geR" eventType="valueChanged" id="o66-Fe-BMH"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="C1j-4s-5o2">
+                                <rect key="frame" x="147" y="214" width="340" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Blonde"/>
+                                    <segment title="Brown"/>
+                                    <segment title="Black"/>
+                                </segments>
+                                <connections>
+                                    <action selector="hairColorType:" destination="uLh-ae-geR" eventType="valueChanged" id="0Dn-or-bKZ"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gK8-aB-Mwu">
+                                <rect key="frame" x="30" y="401" width="978" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="20"/>
+                                <color key="textColor" red="0.27843137254901962" green="1" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AXm-I1-6BK">
+                                <rect key="frame" x="16" y="181" width="123" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EcL-l5-chq"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="ageChanger" destination="1I3-bD-abj" id="f2w-C7-RRH"/>
+                        <outlet property="backgroundArea" destination="gK8-aB-Mwu" id="X0G-oE-Sn4"/>
+                        <outlet property="backgroundType" destination="fYy-25-XlW" id="TgL-VM-kpl"/>
+                        <outlet property="continueButton" destination="rs0-6J-fQj" id="x7t-oA-nkN"/>
+                        <outlet property="firstNameBox" destination="ieV-dM-EKK" id="mP0-QZ-amn"/>
+                        <outlet property="hairColor" destination="C1j-4s-5o2" id="oJb-Da-2ks"/>
+                        <outlet property="lastNameBox" destination="hbw-on-08L" id="oXQ-oG-Ent"/>
+                        <outlet property="skinColor" destination="25Y-W8-d4x" id="qUG-Tg-8zr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7o7-f4-UHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1800" y="406"/>
+        </scene>
+        <!--Cutscene View Controller-->
+        <scene sceneID="xOh-ZK-iUU">
+            <objects>
+                <viewController storyboardIdentifier="CutsceneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Kev-Gp-m1H" customClass="CutsceneViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fzl-Lu-tjn">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackgroundfornate.png" id="SLf-sY-iTe">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ePg-3d-AE6">
+                                <rect key="frame" x="470" y="691" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="20"/>
+                                <state key="normal" title="&lt;...Next...&gt;">
+                                    <color key="titleColor" red="0.2784313725" green="1" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButton:" destination="Kev-Gp-m1H" eventType="touchUpInside" id="4sq-0w-wNG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6gF-py-UJs">
+                                <rect key="frame" x="16" y="140" width="987" height="543"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="18"/>
+                                <color key="textColor" red="0.30562752809999999" green="1" blue="0.30333913779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="EfV-YL-DXw">
+                                <rect key="frame" x="584" y="6" width="432" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tgj-aZ-0Ft"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="cutsceneImage" destination="EfV-YL-DXw" id="vKK-8V-IZJ"/>
+                        <outlet property="cutsceneText" destination="6gF-py-UJs" id="vGr-Jz-kH0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZD-oK-09X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2947" y="406"/>
+        </scene>
+        <!--Main Game View Controller-->
+        <scene sceneID="KZU-vN-144">
+            <objects>
+                <viewController storyboardIdentifier="MainGameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kqR-G3-2jj" customClass="MainGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fVe-Bb-NCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackgroundfornate.png" id="xub-id-zpP">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowBackground.png" id="lEu-fc-dE7">
+                                <rect key="frame" x="0.0" y="529" width="1024" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="60s-5n-SYV">
+                                <rect key="frame" x="7" y="583" width="1017" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <state key="normal" title="2.) &lt;Option&gt;">
+                                    <color key="titleColor" red="0.2784313725" green="1" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionTwoButton:" destination="kqR-G3-2jj" eventType="touchUpInside" id="5Sn-Q6-yKX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="V4q-l0-JKe">
+                                <rect key="frame" x="7" y="627" width="1017" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <state key="normal" title="3.) &lt;Option&gt;">
+                                    <color key="titleColor" red="0.2784313725" green="1" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionThreeButton:" destination="kqR-G3-2jj" eventType="touchUpInside" id="cIO-kG-fhs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7uC-QB-zFq">
+                                <rect key="frame" x="7" y="674" width="1017" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <state key="normal" title="4.) &lt;Option&gt;">
+                                    <color key="titleColor" red="0.2784313725" green="1" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionFourButton:" destination="kqR-G3-2jj" eventType="touchUpInside" id="Fyk-Fk-UFO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="xQg-y4-ytB">
+                                <rect key="frame" x="764" y="36" width="244" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vx4-kH-Rve">
+                                <rect key="frame" x="7" y="20" width="749" height="501"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="18"/>
+                                <color key="textColor" red="0.25882352941176473" green="1" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NG4-h8-4HZ">
+                                <rect key="frame" x="7" y="537" width="1017" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <state key="normal" title="1.) &lt;Option&gt;">
+                                    <color key="titleColor" red="0.27843137254901962" green="1" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="optionOneButton:" destination="kqR-G3-2jj" eventType="touchUpInside" id="uOm-DA-LJi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xPf-gM-Z5V"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="dialogOptionFour" destination="7uC-QB-zFq" id="8E5-ga-5uk"/>
+                        <outlet property="dialogOptionOne" destination="NG4-h8-4HZ" id="6G1-qL-TOh"/>
+                        <outlet property="dialogOptionThree" destination="V4q-l0-JKe" id="LEY-lI-Xu1"/>
+                        <outlet property="dialogOptionTwo" destination="60s-5n-SYV" id="Yxq-wf-bhG"/>
+                        <outlet property="npcImageArea" destination="xQg-y4-ytB" id="7UH-nz-Xt0"/>
+                        <outlet property="textArea" destination="vx4-kH-Rve" id="B3s-e9-ig1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MqG-c8-rWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4037" y="406"/>
+        </scene>
+        <!--CreditsViewController-->
+        <scene sceneID="vPp-qu-831">
+            <objects>
+                <viewController storyboardIdentifier="CreditsViewController" title="CreditsViewController" id="BVY-mP-Qme" customClass="CreditsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EPY-22-rT4">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackgroundfornate.png" id="hmV-ik-WD6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TQJ-kL-c5F">
+                                <rect key="frame" x="409" y="718" width="198" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="20"/>
+                                <state key="normal" title="&lt;...Back to Main Menu...&gt;">
+                                    <color key="titleColor" red="0.2784313725" green="1" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToMenu:" destination="BVY-mP-Qme" eventType="touchUpInside" id="3cL-FE-do6"/>
+                                    <action selector="nextButton:" destination="Kev-Gp-m1H" eventType="touchUpInside" id="9Yd-jU-z28"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sfS-S9-a5E">
+                                <rect key="frame" x="9" y="11" width="999" height="683"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Windows-Command-Prompt" family="Windows Command Prompt" pointSize="22"/>
+                                <color key="textColor" red="0.25882352939999997" green="1" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="creditsText" destination="sfS-S9-a5E" id="nB1-xt-bmk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHx-y8-6we" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5095" y="406"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Pbg-Mv-Not">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hZC-Y4-509" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eo8-LG-Fmk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RIb-bP-F3n" kind="relationship" relationship="rootViewController" id="91a-6m-FzC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXK-h8-Dno" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-412" y="406"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ColonialMarineTitle.png" width="1500" height="700"/>
+        <image name="newbackgroundfornate.png" width="1024" height="768"/>
+        <image name="windowBackground.png" width="1400" height="768"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

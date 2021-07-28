@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1708E1731AF3C4C40055065B /* USCMLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1708E1701AF3C4C40055065B /* USCMLogo.png */; };
+		1708E1741AF3C4C40055065B /* ColonialMarineTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1708E1711AF3C4C40055065B /* ColonialMarineTitle.png */; };
+		1708E1791AF3C9C70055065B /* newbackgroundfornate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1708E1781AF3C9C70055065B /* newbackgroundfornate.png */; };
+		170998971AF14A0A00278EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170998961AF14A0A00278EBC /* main.m */; };
+		1709989A1AF14A0A00278EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170998991AF14A0A00278EBC /* AppDelegate.m */; };
+		1709989D1AF14A0A00278EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1709989C1AF14A0A00278EBC /* ViewController.m */; };
+		170998A21AF14A0B00278EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170998A11AF14A0B00278EBC /* Images.xcassets */; };
+		170998A51AF14A0B00278EBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170998A31AF14A0B00278EBC /* LaunchScreen.xib */; };
+		170998B11AF14A0B00278EBC /* ColonialMarineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170998B01AF14A0B00278EBC /* ColonialMarineTests.m */; };
+		170998BB1AF14DA700278EBC /* windows_command_prompt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170998BA1AF14C4B00278EBC /* windows_command_prompt.ttf */; };
+		170998BE1AF1500400278EBC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170998BD1AF1500400278EBC /* GameViewController.m */; };
+		1709C8DA1B160FE1004C46E6 /* backgroundmusic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1709C8D91B160FE1004C46E6 /* backgroundmusic1.mp3 */; };
+		1709C8DC1B161D8F004C46E6 /* backgroundhangersounds.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 1709C8DB1B161D8F004C46E6 /* backgroundhangersounds.aiff */; };
+		170DF6371AF937EC003AD748 /* repeataudio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 170DF6361AF937EC003AD748 /* repeataudio.aiff */; };
+		170E475D1B011DEE004931F8 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 170E475C1B011DEE004931F8 /* Engine.m */; };
+		1710278A1AFA7DA400850C6F /* MainGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171027891AFA7DA400850C6F /* MainGameViewController.m */; };
+		1710278D1AFA80D600850C6F /* CutsceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1710278C1AFA80D600850C6F /* CutsceneViewController.m */; };
+		1719ED4F1AF2A2DB0070D8D9 /* MainTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1719ED4E1AF2A2DB0070D8D9 /* MainTheme.mp3 */; };
+		175D373B1B1740D00049EC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175D373A1B1740D00049EC93 /* Main.storyboard */; };
+		175D373F1B1747820049EC93 /* hypersleeppodsimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 175D373E1B1747820049EC93 /* hypersleeppodsimage.png */; };
+		175D37411B174EE10049EC93 /* emmaimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 175D37401B174EE10049EC93 /* emmaimage.png */; };
+		175D37441B1756200049EC93 /* combatdropmusic.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37431B1756200049EC93 /* combatdropmusic.aiff */; };
+		175D37491B175F170049EC93 /* motiontrackercontacthigh.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37451B175F170049EC93 /* motiontrackercontacthigh.aiff */; };
+		175D374A1B175F170049EC93 /* motiontrackercontactmedium.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37461B175F170049EC93 /* motiontrackercontactmedium.aiff */; };
+		175D374B1B175F170049EC93 /* motiontrackercontactslow.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37471B175F170049EC93 /* motiontrackercontactslow.aiff */; };
+		175D374C1B175F170049EC93 /* motiontrackercontactmediumhigh.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37481B175F170049EC93 /* motiontrackercontactmediumhigh.aiff */; };
+		175D37501B17860B0049EC93 /* musiconeending.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D374F1B17860B0049EC93 /* musiconeending.aiff */; };
+		175D37531B178E400049EC93 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D37521B178E400049EC93 /* CreditsViewController.m */; };
+		175D37551B1795CE0049EC93 /* smartgunsoundeffect.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 175D37541B1795CE0049EC93 /* smartgunsoundeffect.aiff */; };
+		176B04C61AF3E03B00E892B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176B04C51AF3E03B00E892B9 /* AVFoundation.framework */; };
+		17F22F981B0BADC90036DA36 /* windowBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F22F971B0BADC90036DA36 /* windowBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170998AB1AF14A0B00278EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170998891AF14A0A00278EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170998901AF14A0A00278EBC;
+			remoteInfo = ColonialMarine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1708E1701AF3C4C40055065B /* USCMLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USCMLogo.png; sourceTree = "<group>"; };
+		1708E1711AF3C4C40055065B /* ColonialMarineTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColonialMarineTitle.png; sourceTree = "<group>"; };
+		1708E1781AF3C9C70055065B /* newbackgroundfornate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbackgroundfornate.png; sourceTree = "<group>"; };
+		170998911AF14A0A00278EBC /* ColonialMarine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColonialMarine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170998951AF14A0A00278EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170998961AF14A0A00278EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		170998981AF14A0A00278EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		170998991AF14A0A00278EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1709989B1AF14A0A00278EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1709989C1AF14A0A00278EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		170998A11AF14A0B00278EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		170998A41AF14A0B00278EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		170998AA1AF14A0B00278EBC /* ColonialMarineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColonialMarineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170998AF1AF14A0B00278EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170998B01AF14A0B00278EBC /* ColonialMarineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColonialMarineTests.m; sourceTree = "<group>"; };
+		170998BA1AF14C4B00278EBC /* windows_command_prompt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = windows_command_prompt.ttf; sourceTree = "<group>"; };
+		170998BC1AF1500400278EBC /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		170998BD1AF1500400278EBC /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1709C8D91B160FE1004C46E6 /* backgroundmusic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic1.mp3; sourceTree = "<group>"; };
+		1709C8DB1B161D8F004C46E6 /* backgroundhangersounds.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = backgroundhangersounds.aiff; sourceTree = "<group>"; };
+		170DF6361AF937EC003AD748 /* repeataudio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = repeataudio.aiff; sourceTree = "<group>"; };
+		170E475B1B011DEE004931F8 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		170E475C1B011DEE004931F8 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		171027881AFA7DA400850C6F /* MainGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGameViewController.h; sourceTree = "<group>"; };
+		171027891AFA7DA400850C6F /* MainGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGameViewController.m; sourceTree = "<group>"; };
+		1710278B1AFA80D600850C6F /* CutsceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutsceneViewController.h; sourceTree = "<group>"; };
+		1710278C1AFA80D600850C6F /* CutsceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutsceneViewController.m; sourceTree = "<group>"; };
+		1719ED4E1AF2A2DB0070D8D9 /* MainTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MainTheme.mp3; sourceTree = "<group>"; };
+		175D373A1B1740D00049EC93 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		175D373E1B1747820049EC93 /* hypersleeppodsimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hypersleeppodsimage.png; sourceTree = "<group>"; };
+		175D37401B174EE10049EC93 /* emmaimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emmaimage.png; sourceTree = "<group>"; };
+		175D37431B1756200049EC93 /* combatdropmusic.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = combatdropmusic.aiff; sourceTree = "<group>"; };
+		175D37451B175F170049EC93 /* motiontrackercontacthigh.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = motiontrackercontacthigh.aiff; sourceTree = "<group>"; };
+		175D37461B175F170049EC93 /* motiontrackercontactmedium.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = motiontrackercontactmedium.aiff; sourceTree = "<group>"; };
+		175D37471B175F170049EC93 /* motiontrackercontactslow.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = motiontrackercontactslow.aiff; sourceTree = "<group>"; };
+		175D37481B175F170049EC93 /* motiontrackercontactmediumhigh.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = motiontrackercontactmediumhigh.aiff; sourceTree = "<group>"; };
+		175D374F1B17860B0049EC93 /* musiconeending.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = musiconeending.aiff; sourceTree = "<group>"; };
+		175D37511B178E400049EC93 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditsViewController.h; path = ../CreditsViewController.h; sourceTree = "<group>"; };
+		175D37521B178E400049EC93 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditsViewController.m; path = ../CreditsViewController.m; sourceTree = "<group>"; };
+		175D37541B1795CE0049EC93 /* smartgunsoundeffect.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = smartgunsoundeffect.aiff; sourceTree = "<group>"; };
+		176B04C51AF3E03B00E892B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17F22F971B0BADC90036DA36 /* windowBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windowBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1709988E1AF14A0A00278EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B04C61AF3E03B00E892B9 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170998A71AF14A0B00278EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170998881AF14A0A00278EBC = {
+			isa = PBXGroup;
+			children = (
+				176B04C51AF3E03B00E892B9 /* AVFoundation.framework */,
+				170998931AF14A0A00278EBC /* ColonialMarine */,
+				170998AD1AF14A0B00278EBC /* ColonialMarineTests */,
+				170998921AF14A0A00278EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170998921AF14A0A00278EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170998911AF14A0A00278EBC /* ColonialMarine.app */,
+				170998AA1AF14A0B00278EBC /* ColonialMarineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170998931AF14A0A00278EBC /* ColonialMarine */ = {
+			isa = PBXGroup;
+			children = (
+				1719ED501AF2A2E60070D8D9 /* Music and Sound Effects */,
+				170998BA1AF14C4B00278EBC /* windows_command_prompt.ttf */,
+				170998981AF14A0A00278EBC /* AppDelegate.h */,
+				170998991AF14A0A00278EBC /* AppDelegate.m */,
+				170E475B1B011DEE004931F8 /* Engine.h */,
+				170E475C1B011DEE004931F8 /* Engine.m */,
+				1709989B1AF14A0A00278EBC /* ViewController.h */,
+				1709989C1AF14A0A00278EBC /* ViewController.m */,
+				171027881AFA7DA400850C6F /* MainGameViewController.h */,
+				171027891AFA7DA400850C6F /* MainGameViewController.m */,
+				1710278B1AFA80D600850C6F /* CutsceneViewController.h */,
+				1710278C1AFA80D600850C6F /* CutsceneViewController.m */,
+				170998BC1AF1500400278EBC /* GameViewController.h */,
+				170998BD1AF1500400278EBC /* GameViewController.m */,
+				175D37511B178E400049EC93 /* CreditsViewController.h */,
+				175D37521B178E400049EC93 /* CreditsViewController.m */,
+				170998A11AF14A0B00278EBC /* Images.xcassets */,
+				175D373A1B1740D00049EC93 /* Main.storyboard */,
+				170998A31AF14A0B00278EBC /* LaunchScreen.xib */,
+				170998941AF14A0A00278EBC /* Supporting Files */,
+			);
+			path = ColonialMarine;
+			sourceTree = "<group>";
+		};
+		170998941AF14A0A00278EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170998951AF14A0A00278EBC /* Info.plist */,
+				170998961AF14A0A00278EBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		170998AD1AF14A0B00278EBC /* ColonialMarineTests */ = {
+			isa = PBXGroup;
+			children = (
+				170998B01AF14A0B00278EBC /* ColonialMarineTests.m */,
+				170998AE1AF14A0B00278EBC /* Supporting Files */,
+			);
+			path = ColonialMarineTests;
+			sourceTree = "<group>";
+		};
+		170998AE1AF14A0B00278EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				170998AF1AF14A0B00278EBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1719ED501AF2A2E60070D8D9 /* Music and Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				175D374F1B17860B0049EC93 /* musiconeending.aiff */,
+				175D37541B1795CE0049EC93 /* smartgunsoundeffect.aiff */,
+				175D37431B1756200049EC93 /* combatdropmusic.aiff */,
+				175D37451B175F170049EC93 /* motiontrackercontacthigh.aiff */,
+				175D37461B175F170049EC93 /* motiontrackercontactmedium.aiff */,
+				175D37471B175F170049EC93 /* motiontrackercontactslow.aiff */,
+				175D37481B175F170049EC93 /* motiontrackercontactmediumhigh.aiff */,
+				175D373E1B1747820049EC93 /* hypersleeppodsimage.png */,
+				175D37401B174EE10049EC93 /* emmaimage.png */,
+				1709C8D91B160FE1004C46E6 /* backgroundmusic1.mp3 */,
+				1709C8DB1B161D8F004C46E6 /* backgroundhangersounds.aiff */,
+				1719ED4E1AF2A2DB0070D8D9 /* MainTheme.mp3 */,
+				1708E1781AF3C9C70055065B /* newbackgroundfornate.png */,
+				1708E1701AF3C4C40055065B /* USCMLogo.png */,
+				170DF6361AF937EC003AD748 /* repeataudio.aiff */,
+				1708E1711AF3C4C40055065B /* ColonialMarineTitle.png */,
+				17F22F971B0BADC90036DA36 /* windowBackground.png */,
+			);
+			name = "Music and Sound Effects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170998901AF14A0A00278EBC /* ColonialMarine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170998B41AF14A0B00278EBC /* Build configuration list for PBXNativeTarget "ColonialMarine" */;
+			buildPhases = (
+				1709988D1AF14A0A00278EBC /* Sources */,
+				1709988E1AF14A0A00278EBC /* Frameworks */,
+				1709988F1AF14A0A00278EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColonialMarine;
+			productName = ColonialMarine;
+			productReference = 170998911AF14A0A00278EBC /* ColonialMarine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170998A91AF14A0B00278EBC /* ColonialMarineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170998B71AF14A0B00278EBC /* Build configuration list for PBXNativeTarget "ColonialMarineTests" */;
+			buildPhases = (
+				170998A61AF14A0B00278EBC /* Sources */,
+				170998A71AF14A0B00278EBC /* Frameworks */,
+				170998A81AF14A0B00278EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170998AC1AF14A0B00278EBC /* PBXTargetDependency */,
+			);
+			name = ColonialMarineTests;
+			productName = ColonialMarineTests;
+			productReference = 170998AA1AF14A0B00278EBC /* ColonialMarineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170998891AF14A0A00278EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nathan White";
+				TargetAttributes = {
+					170998901AF14A0A00278EBC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					170998A91AF14A0B00278EBC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 170998901AF14A0A00278EBC;
+					};
+				};
+			};
+			buildConfigurationList = 1709988C1AF14A0A00278EBC /* Build configuration list for PBXProject "ColonialMarine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170998881AF14A0A00278EBC;
+			productRefGroup = 170998921AF14A0A00278EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170998901AF14A0A00278EBC /* ColonialMarine */,
+				170998A91AF14A0B00278EBC /* ColonialMarineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1709988F1AF14A0A00278EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1719ED4F1AF2A2DB0070D8D9 /* MainTheme.mp3 in Resources */,
+				170998BB1AF14DA700278EBC /* windows_command_prompt.ttf in Resources */,
+				1709C8DC1B161D8F004C46E6 /* backgroundhangersounds.aiff in Resources */,
+				175D374C1B175F170049EC93 /* motiontrackercontactmediumhigh.aiff in Resources */,
+				17F22F981B0BADC90036DA36 /* windowBackground.png in Resources */,
+				170DF6371AF937EC003AD748 /* repeataudio.aiff in Resources */,
+				175D37411B174EE10049EC93 /* emmaimage.png in Resources */,
+				175D374B1B175F170049EC93 /* motiontrackercontactslow.aiff in Resources */,
+				1708E1741AF3C4C40055065B /* ColonialMarineTitle.png in Resources */,
+				175D37441B1756200049EC93 /* combatdropmusic.aiff in Resources */,
+				1708E1791AF3C9C70055065B /* newbackgroundfornate.png in Resources */,
+				175D373B1B1740D00049EC93 /* Main.storyboard in Resources */,
+				175D37551B1795CE0049EC93 /* smartgunsoundeffect.aiff in Resources */,
+				1709C8DA1B160FE1004C46E6 /* backgroundmusic1.mp3 in Resources */,
+				170998A51AF14A0B00278EBC /* LaunchScreen.xib in Resources */,
+				1708E1731AF3C4C40055065B /* USCMLogo.png in Resources */,
+				175D37501B17860B0049EC93 /* musiconeending.aiff in Resources */,
+				170998A21AF14A0B00278EBC /* Images.xcassets in Resources */,
+				175D373F1B1747820049EC93 /* hypersleeppodsimage.png in Resources */,
+				175D374A1B175F170049EC93 /* motiontrackercontactmedium.aiff in Resources */,
+				175D37491B175F170049EC93 /* motiontrackercontacthigh.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170998A81AF14A0B00278EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1709988D1AF14A0A00278EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170E475D1B011DEE004931F8 /* Engine.m in Sources */,
+				170998BE1AF1500400278EBC /* GameViewController.m in Sources */,
+				1709989D1AF14A0A00278EBC /* ViewController.m in Sources */,
+				1710278D1AFA80D600850C6F /* CutsceneViewController.m in Sources */,
+				1709989A1AF14A0A00278EBC /* AppDelegate.m in Sources */,
+				1710278A1AFA7DA400850C6F /* MainGameViewController.m in Sources */,
+				170998971AF14A0A00278EBC /* main.m in Sources */,
+				175D37531B178E400049EC93 /* CreditsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170998A61AF14A0B00278EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170998B11AF14A0B00278EBC /* ColonialMarineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170998AC1AF14A0B00278EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170998901AF14A0A00278EBC /* ColonialMarine */;
+			targetProxy = 170998AB1AF14A0B00278EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170998A31AF14A0B00278EBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170998A41AF14A0B00278EBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170998B21AF14A0B00278EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		170998B31AF14A0B00278EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		170998B51AF14A0B00278EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColonialMarine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		170998B61AF14A0B00278EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColonialMarine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		170998B81AF14A0B00278EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColonialMarineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColonialMarine.app/ColonialMarine";
+			};
+			name = Debug;
+		};
+		170998B91AF14A0B00278EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColonialMarineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColonialMarine.app/ColonialMarine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1709988C1AF14A0A00278EBC /* Build configuration list for PBXProject "ColonialMarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170998B21AF14A0B00278EBC /* Debug */,
+				170998B31AF14A0B00278EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170998B41AF14A0B00278EBC /* Build configuration list for PBXNativeTarget "ColonialMarine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170998B51AF14A0B00278EBC /* Debug */,
+				170998B61AF14A0B00278EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170998B71AF14A0B00278EBC /* Build configuration list for PBXNativeTarget "ColonialMarineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170998B81AF14A0B00278EBC /* Debug */,
+				170998B91AF14A0B00278EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170998891AF14A0A00278EBC /* Project object */;
+}
